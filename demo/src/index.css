@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	line-height: calc(1em + 0.725rem);
+}
+
+#root {
+	isolation: isolate;
+}
+
+body {
+	min-height: 100svh;
+	overflow-x: hidden;
+	overflow-x: clip;
+}
+
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+svg:not([fill]) {
+	fill: currentColor;
+}

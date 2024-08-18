@@ -1,0 +1,12 @@
+{
+	"extends": "@tommy-mitchell/tsconfig",
+	"include": ["src"],
+	"references": [{ "path": "./tsconfig.node.json" }],
+	"compilerOptions": {
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"allowImportingTsExtensions": true,
+		"isolatedModules": true,
+		"noEmit": true,
+	},
+}
