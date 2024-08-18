@@ -1,6 +1,6 @@
 {
 	"name": "use-boop-simple",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "React hook for Josh W. Comeau's \"Boop\" effect.",
 	"keywords": [
 		"nodejs",
@@ -43,10 +43,18 @@
 		"test:types": "pnpm build && tsd -t dist/index.d.ts"
 	},
 	"ava": {
-		"environmentVariables": { "TSIMP_DIAG": "ignore" },
-		"extensions": { "ts": "module" },
-		"nodeArguments": ["--import=tsimp"],
-		"require": ["test/_require.ts"],
+		"environmentVariables": {
+			"TSIMP_DIAG": "ignore"
+		},
+		"extensions": {
+			"ts": "module"
+		},
+		"nodeArguments": [
+			"--import=tsimp"
+		],
+		"require": [
+			"test/_require.ts"
+		],
 		"serial": true
 	},
 	"dependencies": {
