@@ -2,10 +2,10 @@
 
 Minimal React hook for [Josh W. Comeau's "Boop" effect](https://www.joshwcomeau.com/react/boop).
 
-Designed with bundle size in mind - less than 3KB gzipped!
+Designed with bundle size in mind - less than [2.3KB gzipped](https://pkg-size.dev/use-boop-simple?no-peers)!
 
 <details>
-<summary>Bundle Size Calculations</summary>
+<summary>Bundle Size Comparisons</summary>
 <p>
 
 `use-boop-simple` itself is less than 1.5KB gzipped.
