@@ -1,4 +1,4 @@
-import { SiGithub } from "@icons-pack/react-simple-icons";
+import { SiGithub, SiNpm } from "@icons-pack/react-simple-icons";
 import About from "../content/about.md";
 import { BoopInput } from "./BoopInput.tsx";
 import { IconButton } from "./IconButton.tsx";
@@ -14,10 +14,13 @@ export function App() {
 						<code>use-boop-simple</code>
 					</h1>
 				</Prose>
-				<nav className="flex flex-wrap gap-3">
+				<nav className="flex flex-wrap gap-3 md:gap-3.5">
 					<ThemeToggle />
-					<IconButton href="https://github.com/tommy-mitchell/use-boop-simple">
-						<SiGithub className="size-7" />
+					<IconButton title="GitHub" href="https://github.com/tommy-mitchell/use-boop-simple">
+						<SiGithub />
+					</IconButton>
+					<IconButton title="npm" href="https://www.npmjs.com/package/use-boop-simple">
+						<SiNpm className="rounded-md p-px" />
 					</IconButton>
 				</nav>
 			</header>

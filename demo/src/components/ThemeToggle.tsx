@@ -56,8 +56,8 @@ export function ThemeToggle() {
 	const Icon = ICONS_BY_THEME[mode];
 
 	return (
-		<IconButton onClick={handleToggle}>
-			<Icon className="size-7" />
+		<IconButton title={`Change theme (current: ${mode})`} onClick={handleToggle}>
+			<Icon />
 		</IconButton>
 	);
 }
