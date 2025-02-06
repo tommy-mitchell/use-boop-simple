@@ -14,6 +14,7 @@ export function ResetButton({ disabled, onReset }: ResetButtonProps) {
 			className="w-7"
 			boop={{ rotate: -17.5 }}
 			label="Reset"
+			title="Reset"
 			onClick={onReset}
 		/>
 	);

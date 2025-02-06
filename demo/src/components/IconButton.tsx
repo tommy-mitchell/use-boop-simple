@@ -23,7 +23,7 @@ export function IconButton({ children, className, href, onClick, ...props }: Ico
 					*:size-7
 					dark:hocus:bg-background-active dark:hocus:outline-background-active dark:hocus:text-accent-500
 					hocus:bg-primary hocus:outline-primary hocus:text-accent-900
-					md:*:size-8
+					sm:*:size-8
 				`,
 				className,
 			)}
