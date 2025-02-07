@@ -10,6 +10,7 @@ export default withModeAwareColors({
 		handler: ({ addUtilities, addVariant }) => {
 			addVariant("hocus", ["&:hover", "&:focus-visible"]);
 			addVariant("group-hocus", [":merge(.group):hover &", ":merge(.group):focus-visible &"]);
+			addVariant("light", "&:not(.dark, .dark *)");
 			addUtilities({
 				".appearance-textfield": {
 					"&::-webkit-inner-spin-button": {

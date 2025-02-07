@@ -17,7 +17,7 @@ export function App() {
 				</Prose>
 				<nav className="flex flex-wrap gap-3 md:gap-3.5">
 					<IconButton title="made w love by tommy mitchell" href="https://tommymitchell.io" className="mr-[-2px]">
-						<Favicon className="size-6 p-[2.5px] dark:invert" />
+						<Favicon className="size-6 p-[2.5px] dark:invert light:!filter-none" />
 					</IconButton>
 					<ThemeToggle />
 					<IconButton title="GitHub" href="https://github.com/tommy-mitchell/use-boop-simple">
